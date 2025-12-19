@@ -1,0 +1,299 @@
+/* Container Styles */
+.container {
+  display: flex;
+  min-height: 100vh;
+  padding: 70px 150px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Left Column Styles */
+.left-column {
+  width: 280px;
+  background: rgba(253, 239, 202, 0.056);
+  padding: 50px 20px 20px 20px;
+  border-radius: 18px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  color: white;
+  position: fixed;
+  top: 70px;
+  left: 150px;
+  height: fit-content;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* Right Column Styles */
+.right-column {
+  flex: 1;
+  margin-left: 300px;
+  background: rgba(253, 239, 202, 0.056);
+  border-radius: 18px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: #333;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+/* Profile Picture Styles */
+.profile-pic {
+  width: 70%;
+  padding: 10px;
+  background: rgba(253, 239, 202, 0.164);
+  border-radius: 25px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Name Styles */
+.name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* Divider Styles */
+.divider {
+  border: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 10px 0 20px 0;
+}
+
+/* Contact Info Styles */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+/* Contact Row Styles */
+.contact-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: white;
+}
+
+/* Icon Styles */
+.icon {
+  font-size: 1.2rem;
+  color: #f5c518;
+  padding: 10px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(253, 239, 202, 0.056);
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Contact Text Styles */
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+/* Contact Label Styles */
+.contact-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: white;
+  margin-bottom: 4px;
+  margin-top: 3px;
+}
+
+/* Contact Detail Styles */
+.contact-detail {
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+/* Social Icons Styles */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Social Icon Styles */
+.social-icon {
+  color: white;
+  font-size: 1.3rem;
+  transition: transform 0.2s ease;
+}
+
+/* Social Icon Hover Effect */
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Navbar Styles */
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 10px 50px;
+  border-radius: 0 12px;
+  z-index: 10;
+  background: rgba(253, 239, 202, 0.056);
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.25);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Navbar List Styles */
+.nav-list {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+
+/* Navbar Item Styles */
+.nav-item a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Navbar Item Hover Effect */
+.nav-item a:hover {
+  color: #f5c518;
+}
+
+/* Navbar Button Styles */
+.nav-item button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Navbar Button Hover Effect */
+.nav-item button:hover {
+  color: #f5c518;
+}
+
+/* Navbar Button Active State */
+.nav-item button.active {
+  color: #f5c518;
+}
+
+/* Tab Content Styles */
+.tab-content {
+  position: relative;
+}
+
+/* Fade In and Fade Out Animations */
+.fade-in-left {
+  animation: fadeInLeft 0.4s ease forwards;
+}
+
+.fade-in-right {
+  animation: fadeInRight 0.4s ease forwards;
+}
+
+.fade-out-left {
+  animation: fadeOutLeft 0.3s ease forwards;
+}
+
+.fade-out-right {
+  animation: fadeOutRight 0.3s ease forwards;
+}
+
+/* Keyframes for Fade Animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes fadeOutRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  /* Hide the Left Column on Smaller Screens */
+  .left-column {
+    display: none;
+  }
+
+  /* Make the Right Column Full Width and Stack Content */
+  .right-column {
+    margin-left: 0; /* Remove left margin */
+    width: 100%; /* Make the right column take full width */
+    padding: 10px; /* Optional: add some padding for better layout */
+  }
+
+  /* Adjust Navbar for Small Screens */
+  .navbar {
+    padding: 10px 20px; /* Adjust navbar padding */
+  }
+
+  /* Adjust Container Padding for Small Screens */
+  .container {
+    padding: 70px 20px; /* Adjust container padding */
+  }
+}

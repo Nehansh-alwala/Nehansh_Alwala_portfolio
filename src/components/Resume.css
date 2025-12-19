@@ -1,0 +1,353 @@
+/* General Styles */
+.resume-section {
+  padding: 20px 25px;
+  color: #f0e8c6;
+}
+
+.resume-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f5c518;
+  margin-bottom: 25px;
+  border-left: 5px solid #f5c518;
+  padding-left: 12px;
+  text-align: left;
+}
+
+/* Section Heading */
+.section-heading {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-section h3 {
+  font-size: 1.4rem;
+  margin: 0;
+  padding-bottom: 2px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.resume-section h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #f5c518;
+  border-radius: 2px;
+}
+
+/* Icon Heading */
+.icon-heading {
+  font-size: 1.5rem;
+  color: #f5c518;
+  padding: 8px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background: rgba(253, 239, 202, 0.056);
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* === Timeline Section === */
+
+/* Timeline */
+.timeline {
+  position: relative;
+  border-left: 2px solid rgba(255, 255, 255, 0.3);
+  margin-left: 20px;
+  padding-left: 20px;
+  height: auto;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.timeline-line::before{
+  content: "";
+  position: absolute;
+  left: -26px;
+  top: 25px;
+  width: 10px;
+  height: 10px;
+  background-color: #f5c518;
+  border-radius: 50%;
+  
+}
+
+.timeline-content {
+  color: #ddd;
+  font-size: 0.95rem;
+  padding-left: 0;
+  text-align: left;
+  padding-top: 12px;
+}
+
+.degree {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.institution {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.year {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+.timeline-content p {
+  margin: 4px 0;
+  line-height: 1.5;
+}
+
+.timeline-content p {
+  margin-bottom: 8px;
+}
+
+
+
+/* === Experience Section === */
+.exp-section {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.exp-icon {
+  font-size: 1.5rem;
+  color: #f5c518;
+  padding: 8px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background: rgba(253, 239, 202, 0.056);
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.exp-timeline {
+  position: relative;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  margin-left: 20px;
+  padding-left: 20px;
+  height: auto;
+}
+
+.exp-timeline-item {
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.exp-timeline-line::before {
+  content: "";
+  position: absolute;
+  left: -26px;
+  top: 25px;
+  width: 10px;
+  height: 10px;
+  background-color: #f5c518;
+  border-radius: 50%;
+}
+
+.exp-timeline-content {
+  color: #ddd;
+  font-size: 0.95rem;
+  padding-left: 0px;
+  text-align: left;
+  padding-top: 12px;
+}
+
+.role {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.industry {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.years {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+.exp-timeline-content p {
+  margin: 4px 0;
+  line-height: 1.5;
+}
+
+/* === Skills Section === */
+.skills-section {
+  margin-top: 50px;
+}
+
+.skills-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.skills-heading h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.skills-icon {
+  font-size: 1.5rem;
+  color: #f5c518;
+  padding: 8px;
+  border-radius: 10px;
+  background: rgba(253, 239, 202, 0.056);
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.skills-group h4 {
+  color: #f5c518;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-chip {
+  background: rgba(255, 255, 255, 0.07);
+  color: #f0e8c6;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  cursor: default;
+}
+
+/* === Achievements & Certifications Section === */
+.ac-section {
+  margin-top: 50px;
+}
+
+.ac-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.ac-heading h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.ac-icon {
+  font-size: 1.5rem;
+  color: #f5c518;
+  padding: 8px;
+  border-radius: 10px;
+  background: rgba(253, 239, 202, 0.056);
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ac-subsection {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.subsection-title {
+  color: #f5c518;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.ac-list {
+  padding-left: 30px;
+  color: #ddd;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.ac-list li {
+  margin-bottom: 8px;
+}
+
+/* === Publications Section === */
+.publications-section {
+  margin-top: 50px;
+}
+
+.pub-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.pub-heading h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.pub-icon {
+  font-size: 1.5rem;
+  color: #f5c518;
+  padding: 8px;
+  border-radius: 10px;
+  background: rgba(253, 239, 202, 0.056);
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.pub-list {
+  padding-left: 30px;
+  color: #ddd;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  list-style-type: decimal;
+  text-align: left;
+}
+
+.pub-list li {
+  margin-bottom: 16px;
+  padding-left: 30px;
+}
