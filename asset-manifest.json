@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Nehansh_Alwala_portfolio/static/css/main.675eed0d.css",
+    "main.js": "/Nehansh_Alwala_portfolio/static/js/main.fbafec98.js",
+    "static/js/453.ad7768ec.chunk.js": "/Nehansh_Alwala_portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/image.png": "/Nehansh_Alwala_portfolio/static/media/image.69e80fa1d0a9ac76afa6.png",
+    "static/media/gtams.png": "/Nehansh_Alwala_portfolio/static/media/gtams.0dda7b2a771c0bc4e7f9.png",
+    "static/media/profile.png": "/Nehansh_Alwala_portfolio/static/media/profile.7c947ba99e92edae66c7.png",
+    "static/media/lonbike.png": "/Nehansh_Alwala_portfolio/static/media/lonbike.bab52d5d67a8c1138a30.png",
+    "static/media/netflix.png": "/Nehansh_Alwala_portfolio/static/media/netflix.779d83678adee5392c4d.png",
+    "static/media/gemini.png": "/Nehansh_Alwala_portfolio/static/media/gemini.2551f3fe54a693f9c8df.png",
+    "index.html": "/Nehansh_Alwala_portfolio/index.html",
+    "main.675eed0d.css.map": "/Nehansh_Alwala_portfolio/static/css/main.675eed0d.css.map",
+    "main.fbafec98.js.map": "/Nehansh_Alwala_portfolio/static/js/main.fbafec98.js.map",
+    "453.ad7768ec.chunk.js.map": "/Nehansh_Alwala_portfolio/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.675eed0d.css",
+    "static/js/main.fbafec98.js"
+  ]
+}
